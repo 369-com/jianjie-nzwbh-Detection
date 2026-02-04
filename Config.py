@@ -1,0 +1,63 @@
+#coding:utf-8
+
+# 图片及视频检测结果保存路径
+save_path = 'save_data'
+
+# 使用的模型路径
+model_path = 'models/Common-Weed-and-Crop.pt'
+
+names = {0: 'Tomato leaf bacterial spot',
+1:'Potato leaf early blight   ',
+2:'Bell_pepper leaf spot      ',
+3:'Strawberry leaf            ',
+4:'grape leaf black rot       ',
+5:'grape leaf                 ',
+6:'Bell_pepper leaf           ',
+7:'Potato leaf                ',
+8:'Peach leaf                 ',
+9:'Corn leaf blight           ',
+10:'Apple rust leaf           ',
+11:'Cherry leaf               ',
+12:'Tomato Early blight leaf  ',
+13:'Apple Scab Leaf           ',
+14:'Tomato leaf yellow virus  ',
+15:'Corn Gray leaf spot       ',
+16:'Corn rust leaf            ',
+17:'Soyabean leaf             ',
+18:'Raspberry leaf            ',
+19:'Blueberry leaf            ',
+20:'Squash Powdery mildew leaf',
+21:'Tomato mold leaf          ',
+22:'Tomato leaf late blight   ',
+23:'Tomato Septoria leaf spot ',
+24:'Tomato leaf mosaic virus  ',
+25:'Potato leaf late blight   ',
+26:'Apple leaf'}
+
+CH_names = ['番茄叶细菌性斑点病',
+'马铃薯叶早疫病',
+'甜椒叶斑病  ' ,
+'草莓叶    ' ,
+'葡萄叶黑腐病 ',
+'葡萄叶    ',
+'甜椒叶    ',
+'马铃薯叶   ',
+'桃叶     ',
+'玉米叶枯病  ',
+'苹果锈病叶',
+'樱桃叶',
+'番茄早疫病叶',
+'苹果黑星病叶',
+'番茄叶黄化病毒病',
+'玉米灰斑病',
+'玉米锈病叶',
+'大豆叶',
+'树莓叶',
+'蓝莓叶',
+'南瓜白粉病叶',
+'番茄霉病叶' ,
+'番茄叶晚疫病',
+'番茄叶斑枯病',
+'番茄叶花叶病毒病',
+'马铃薯叶晚疫病' ,
+'苹果叶']
